@@ -33,5 +33,5 @@ a { color:#cc6600; }
 .tariffs table { text-align: left; background: #ddd; margin: 10px 0 20px 0; }
 .tariffs th, .tariffs td { background: #fff; }
 .tariffs th { text-align: center; }
-.tariffs .days { display: inline-block; width: 110px; }
+.tariffs .days { display: inline-block; width: 180px; }
 .tariffs .price { font-weight: bolder; }
