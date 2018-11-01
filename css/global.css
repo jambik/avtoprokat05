@@ -15,10 +15,10 @@ a { color:#cc6600; }
 .content img { border: 0; }
 .content h1, .content h2, .content h3, .content p { margin:0 0 13px 0; }
 
-.main { width: 924px; text-align: left; }
+.main { max-width: 924px; text-align: left; }
 .header { margin-bottom: 20px; }
 .header h1 { font-size: 22pt; font-weight: normal; text-align: center; }
-.header .header-box { width: 924px; height: 256px; background: url(../img/header.jpg) no-repeat; }
+.header .header-box { max-width: 924px; height: 256px; background: url('../img/header.jpg') top center no-repeat; }
 .contacts { padding: 15px 0 0 15px; }
 .contacts a { font-size: 10pt; text-decoration: none; border-bottom: 1px dotted #cc6600; }
 .contacts .address { margin: 0 0 20px 0; }
@@ -30,7 +30,7 @@ a { color:#cc6600; }
 
 .bottom { padding: 20px 0; text-align: center; }
 
-.tariffs table { text-align: left; background: #ddd; margin: 10px 0 20px 0; }
+.tariffs table { text-align: left; background: #ddd; margin: 10px 0 0 0; }
 .tariffs th, .tariffs td { background: #fff; }
 .tariffs th { text-align: center; }
 .tariffs .days { display: inline-block; width: 180px; }
